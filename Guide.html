@@ -12,16 +12,18 @@
 <body>
   <div id="readme"></div>
 
+  <script src="https://cdn.jsdelivr.net/npm/showdown@1.9.1/dist/showdown.min.js"></script>
   <script>
     // Function to fetch the contents of README.md file
     function fetchReadme() {
       fetch('README.md')
         .then(response => response.text())
         .then(text => {
-          // Replace newlines with <br> tags for proper formatting
-          var readmeContent = text.replace(/\n/g, '<br>');
+          // Convert Markdown to HTML
+          var converter = new showdown.Converter();
+          var htmlContent = converter.makeHtml(text);
           // Set the contents of the 'readme' div
-          document.getElementById('readme').innerHTML = readmeContent;
+          document.getElementById('readme').innerHTML = htmlContent;
         })
         .catch(error => {
           console.error('Error fetching README.md:', error);
