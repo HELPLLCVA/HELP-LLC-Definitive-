@@ -1,31 +1,35 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>README Viewer</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 20px;
-        }
-    </style>
+  <title>README Viewer</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+    }
+  </style>
 </head>
 <body>
-    <h1>README Viewer</h1>
-    <div id="readme"></div>
+  <div id="readme"></div>
 
-    <script>
-        fetch('README.md')
-            .then(response => response.text())
-            .then(text => {
-                const readmeDiv = document.getElementById('readme');
-                readmeDiv.innerHTML = marked(text); // Assuming you have a markdown parser library like 'marked'
-            })
-            .catch(error => {
-                console.error('Error fetching README.md:', error);
-            });
-    </script>
+  <script>
+    // Function to fetch the contents of README.md file
+    function fetchReadme() {
+      fetch('README.md')
+        .then(response => response.text())
+        .then(text => {
+          // Replace newlines with <br> tags for proper formatting
+          var readmeContent = text.replace(/\n/g, '<br>');
+          // Set the contents of the 'readme' div
+          document.getElementById('readme').innerHTML = readmeContent;
+        })
+        .catch(error => {
+          console.error('Error fetching README.md:', error);
+        });
+    }
 
-    <!-- Include the 'marked' library -->
-    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    // Call the fetchReadme function when the page loads
+    document.addEventListener('DOMContentLoaded', fetchReadme);
+  </script>
 </body>
 </html>
