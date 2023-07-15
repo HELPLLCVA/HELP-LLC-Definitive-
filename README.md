@@ -5,18 +5,17 @@ This guide provides instructions for the owner of Help LLC, a landscaping websit
 
 Table of Contents
 -----------------
-
--   [Prerequisites](https://chat.openai.com/?model=text-davinci-002-render-sha#prerequisites)
--   [Locate the HTML File](https://chat.openai.com/?model=text-davinci-002-render-sha#locate-the-html-file)
--   [Add or Replace Photos](https://chat.openai.com/?model=text-davinci-002-render-sha#add-or-replace-photos)
-    -   [Adding New Photos](https://chat.openai.com/?model=text-davinci-002-render-sha#adding-new-photos)
-    -   [Replacing Existing Photos](https://chat.openai.com/?model=text-davinci-002-render-sha#replacing-existing-photos)
--   [Update Image References](https://chat.openai.com/?model=text-davinci-002-render-sha#update-image-references)
--   [Edit HTML Text](https://chat.openai.com/?model=text-davinci-002-render-sha#edit-html-text)
-    -   [Updating Phone Numbers and Addresses](https://chat.openai.com/?model=text-davinci-002-render-sha#updating-phone-numbers-and-addresses)
-    -   [Using Shortcuts for Bulk Edits](https://chat.openai.com/?model=text-davinci-002-render-sha#using-shortcuts-for-bulk-edits)
--   [Commit and Deploy](https://chat.openai.com/?model=text-davinci-002-render-sha#commit-and-deploy)
--   [Conclusion](https://chat.openai.com/?model=text-davinci-002-render-sha#conclusion)
+* [Prerequisites](#prerequisites)
+  * [Locate the HTML File](#locate-the-html-file)
+  * [Add or Replace Photos](#add-or-replace-photos)
+    + [Adding New Photos:](#adding-new-photos-)
+    + [Replacing Existing Photos:](#replacing-existing-photos-)
+  * [Update Image References](#update-image-references)
+  * [Edit HTML Text](#edit-html-text)
+    + [Updating Phone Numbers and Addresses](#updating-phone-numbers-and-addresses)
+    + [Using Shortcuts for Bulk Edits](#using-shortcuts-for-bulk-edits)
+  * [Commit and Deploy](#commit-and-deploy)
+  * [Conclusion](#conclusion)
 
 Prerequisites
 -------------
