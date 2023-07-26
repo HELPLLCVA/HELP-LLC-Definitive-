@@ -3,12 +3,12 @@
 }
 
 .u-section-1 .u-sheet-1 {
-  min-height: 926px;
+  min-height: 953px;
 }
 
 .u-section-1 .u-layout-wrap-1 {
   width: 1183px;
-  margin: 26px -43px 60px auto;
+  margin: 53px -43px 60px 0;
 }
 
 .u-section-1 .u-layout-cell-1 {
@@ -1711,6 +1711,7 @@
 
 .u-section-6 .u-image-1 {
   min-height: 605px;
+  background-position: 50% 50%;
 }
 
 .u-section-6 .u-container-layout-5 {
