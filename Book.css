@@ -75,18 +75,22 @@
 }
 
 .u-section-2 .u-sheet-1 {
-  min-height: 833px;
+  min-height: 842px;
 }
 
 .u-section-2 .u-text-1 {
   margin: 0;
 }
 
-.u-section-2 .u-custom-html-1 {
-  height: auto;
-  min-height: 82px;
-  width: 282px;
-  margin: 26px auto 0;
+.u-section-2 .u-btn-1 {
+  font-weight: 700;
+  font-size: 3rem;
+  margin: 31px auto 59px;
+  padding: 0;
+}
+
+.u-section-2 .u-icon-1 {
+  font-size: 1.4em;
 }.gumroad .cart-button {
     display: none !important;
 }
