@@ -248,6 +248,7 @@
   }
 
   .u-section-3 .u-layout-wrap-2 {
+    margin-top: 20px;
     position: relative;
   }
 
@@ -372,6 +373,10 @@
   .u-section-3 .u-carousel-thumbnail-4 {
     width: 80px;
     height: 80px;
+  }
+
+  .u-section-3 .u-text-5 {
+    margin-top: 20px;
   }
 
   .u-section-3 .u-btn-2 {
