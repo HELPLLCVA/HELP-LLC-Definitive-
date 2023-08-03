@@ -1315,7 +1315,7 @@
 }
 
 .u-section-6 .u-sheet-1 {
-  min-height: 1364px;
+  min-height: 1018px;
 }
 
 .u-section-6 .u-group-elements-1 {
@@ -1425,7 +1425,7 @@
 .u-section-6 .u-line-2 {
   width: 1052px;
   transform-origin: left center 0px;
-  margin: 69px auto 13px;
+  margin: 69px auto 0;
 }
 
 .u-section-6 .u-image-1 {
@@ -1459,7 +1459,6 @@
 
   .u-section-6 .u-line-2 {
     width: 720px;
-    margin-bottom: 0;
   }
 }
 
