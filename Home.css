@@ -74,8 +74,6 @@
   transform: translateX(0px) translateY(0px) scale(1) rotate(0deg);
   box-shadow: 0px 0px 0px rgba(0,0,0,0);
   text-transform: uppercase;
-  letter-spacing: 1px;
-  font-weight: 600;
   margin: -15px auto 0 146px;
 }
 
@@ -108,6 +106,11 @@
 
   .u-section-1 .u-group-elements-1 {
     width: 394px;
+  }
+
+  .u-section-1 .u-btn-1 {
+    letter-spacing: 1px;
+    font-weight: 600;
   }
 
   .u-section-1 .u-image-1 {
@@ -362,8 +365,8 @@
   text-shadow: 0px 0px 0px rgba(0,0,0,0);
   border-style: solid;
   text-transform: uppercase;
-  text-decoration: none !important;
   transform: translateX(0px) translateY(0px) scale(1) rotate(0deg);
+  text-decoration: none !important;
   margin: 5px auto 0 42px;
   padding: 0;
 }
@@ -376,8 +379,8 @@
   text-shadow: 0px 0px 0px rgba(0,0,0,0);
   border-style: solid;
   text-transform: uppercase;
-  text-decoration: none !important;
   transform: translateX(0px) translateY(0px) scale(1) rotate(0deg);
+  text-decoration: none !important;
   margin: 18px auto 0 39px;
   padding: 0;
 }
@@ -711,7 +714,6 @@
   text-shadow: 0px 0px 0px rgba(0,0,0,0);
   transform: translateX(0px) translateY(0px) scale(1) rotate(0deg);
   font-weight: 700;
-  letter-spacing: 1px;
   margin: -6px 20px 0 auto;
 }
 
@@ -747,6 +749,7 @@
 
   .u-section-3 .u-btn-1 {
     margin-right: 0;
+    letter-spacing: 1px;
   }
 
   .u-section-3 .u-btn-2 {
