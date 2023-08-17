@@ -1,4 +1,4 @@
-Help LLC Landscaping Website - Owner's Editing Guide (GitHub)
+Help LLC Landscaping Website - Editing Guide (GitHub)
 =============================================================
 
 This guide provides instructions for the owner of Help LLC, a landscaping website, on how to edit HTML text and change photos using GitHub. By following these steps, you can easily update content and replace images without cloning the repository.
