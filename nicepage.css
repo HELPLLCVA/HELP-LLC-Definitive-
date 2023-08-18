@@ -43383,7 +43383,23 @@ a.u-link.u-text-hover-grey-90:hover {
 }
 @media (max-width: 575px) {
   .u-footer .u-group-elements-1 {
-    margin-top: -57px;
+    width: 279px;
+    min-height: 28px;
+    margin-top: -51px;
+    margin-right: 0;
+  }
+
+  .u-footer .u-social-icons-1 {
+    width: 103px;
+    left: auto;
+    right: 5px;
+    height: auto;
+    min-height: auto;
+    margin: initial;
+  }
+
+  .u-footer .u-btn-1 {
+    margin-top: 2px;
   }
 
   .u-footer .u-text-1 {
